@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Hutotpn/url-shortener#readme",
   "dependencies": {
-    "netlify-cli": "^17.36.4",
     "node-appwrite": "^14.1.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.36.4"
   }
 }
