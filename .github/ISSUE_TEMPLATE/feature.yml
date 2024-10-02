@@ -1,0 +1,26 @@
+name: Feature request
+description: File a suggestions.
+labels: ["enhancement"]
+assignees:
+  - Hutotpn
+body:
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like.
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md). 
