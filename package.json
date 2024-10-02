@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Huto's URL Shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hutotpn/url-shortener.git"
+  },
+  "keywords": [
+    "URL",
+    "Shortener"
+  ],
+  "author": "Hutotpn",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Hutotpn/url-shortener/issues"
+  },
+  "homepage": "https://github.com/Hutotpn/url-shortener#readme",
+  "dependencies": {
+    "netlify-cli": "^17.36.4",
+    "node-appwrite": "^14.1.0"
+  }
+}
